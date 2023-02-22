@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.wrapperMenu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.wrapperMenu li {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.wrapperMenu li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.element {
+  height: 850px;
+  background: azure;
+  color: black;
+  font-size: xxx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
